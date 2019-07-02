@@ -1,6 +1,0 @@
-C:\Users\vshtefaniuk\Desktop\MoviesDataLibrary\MoviesDataLibrary\obj\Debug\MoviesDataLibrary.csprojResolveAssemblyReference.cache
-C:\Users\vshtefaniuk\Desktop\MoviesDataLibrary\MoviesDataLibrary\obj\Debug\MoviesDataLibrary.csproj.CoreCompileInputs.cache
-C:\Users\vshtefaniuk\Desktop\MoviesDataLibrary\MoviesDataLibrary\bin\Debug\MoviesDataLibrary.dll
-C:\Users\vshtefaniuk\Desktop\MoviesDataLibrary\MoviesDataLibrary\bin\Debug\MoviesDataLibrary.pdb
-C:\Users\vshtefaniuk\Desktop\MoviesDataLibrary\MoviesDataLibrary\obj\Debug\MoviesDataLibrary.dll
-C:\Users\vshtefaniuk\Desktop\MoviesDataLibrary\MoviesDataLibrary\obj\Debug\MoviesDataLibrary.pdb
