@@ -35,7 +35,7 @@ namespace MovieFilter.Data
     }
 
     [XmlRoot(ElementName = "movie")]
-    public class Movie
+    public class Movie : IEquatable<Movie>
     {
         [XmlElement(ElementName = "title")]
         public string Title { get; set; }
@@ -51,6 +51,16 @@ namespace MovieFilter.Data
         public List<Director> Director { get; set; }
         [XmlElement(ElementName = "actor")]
         public List<Actor> Actor { get; set; }
+
+        public override int GetHashCode()
+        {
+            return Title.GetHashCode();
+        }
+
+        public bool Equals(Movie movie)
+        {
+            return Title.Equals(movie.Title);
+        }
     }
 
     [XmlRoot(ElementName = "director")]
@@ -65,7 +75,7 @@ namespace MovieFilter.Data
     }
 
     [XmlRoot(ElementName = "actor")]
-    public class Actor
+    public class Actor : IEquatable<Actor>
     {
         [XmlElement(ElementName = "first_name")]
         public string FirstName { get; set; }
@@ -75,5 +85,15 @@ namespace MovieFilter.Data
         public string BirthDate { get; set; }
         [XmlElement(ElementName = "role")]
         public string Role { get; set; }
+
+        public override int GetHashCode()
+        {
+            return FirstName.GetHashCode();
+        }
+
+        public bool Equals(Actor actor)
+        {
+            return FirstName.Equals(actor.FirstName);
+        }
     }
 }
